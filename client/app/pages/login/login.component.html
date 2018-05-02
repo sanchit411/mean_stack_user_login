@@ -1,0 +1,32 @@
+<div style="width: 50%; margin: auto; padding-bottom: 20px" align="center">
+  <h1>
+    Login
+  </h1>
+  <form class="form-signin" (submit)="loginCheck()">
+    <br>
+    <label for="username" class="sr-only">Email address</label>
+    <input type="text" id="username" name="username" class="form-control" placeholder="Username" required autofocus>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" id="password" name="password" class="form-control" placeholder="Password" required>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  </form>
+  <p>Did you forget your password? <a [routerLink]="['/forgotPassword']"><em>Click here</em></a></p>
+  <hr>
+  <p>Do you want to SignUp? <a [routerLink]="['/register']"><em>SignUp</em></a></p>
+ 
+  <hr>
+  <div>
+      <button type="button" class="btn" style="background-color: rgb(59, 89, 152); color: white;" (click)="loginFacebook()">
+        Facebook
+      </button>
+      <button type="button" class="btn" style="background-color:rgb(29, 161, 242); color: white;" (click)="loginTwitter()">
+        Twitter
+      </button>
+      <button type="button" class="btn" style="background-color: rgb(219, 68, 55); color: white;" (click)="loginGoogle()">
+        Google
+      </button>
+      <button type="button" class="btn" (click)="loginGithub()">
+        Github
+      </button>
+  </div>
+</div>
