@@ -16,11 +16,3 @@ The technology used to complete task.
 * Bootstrap
 * HTML
 * CSS
-
-Client side code is generated using angular-cli using Typescript. If you are not familiar with Typescript, it is a strong-type javascript dialet and you should be able to learn basic concepts and syntax to complete the task. Please use all resources you can find online to help you complete the task.
-
-Tips:
-* Commit as many as possible. Do not complete everything under one commit.
-* To test REST api, you can use [postman](https://www.getpostman.com/) without writing client side code. 
-* Complete bonus points only after you finish all required tasks.
-  
